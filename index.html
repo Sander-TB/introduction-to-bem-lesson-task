@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BEM practice</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navbar__menu">
+            <li class="navbar__menu-item">
+                <a href="/" class="navbar__menu-item-link navbar__menu-item-link--active"> Home</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="/" class="navbar__menu-item-link"> About</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="/" class="navbar__menu-item-link"> Contact</a>
+            </li>
+        </ul>
+        <ul class="navbar__search">
+            <li class="navbar__search-item">
+                <input type="email" placeholder="Email" class="navbar__search-item-email">
+            </li>
+            <li class="navbar__search-item"> <input type="submit" value="Search" class="navbar__search-item-btn"></li>
+        </ul>
+    </nav>
+
+    <section class="circles">
+        <div class="circles__circle circles__circle-green">
+            <p>Green</p>
+        </div>
+        <div class="circles__circle">
+            <p>White</p>
+        </div>
+        <div class="circles__circle circles__circle-pink">
+            <p>Pink</p>
+        </div>
+        <div class="circles__circle">
+            <p>White</p>
+        </div>
+        <div class="circles__circle circles__circle-green">
+            <p>Green</p>
+        </div>
+        <div class="circles__circle">
+            <p>White</p>
+        </div>
+        <div class="circles__circle circles__circle-green">
+            <p>Green</p>
+        </div>
+        <div class="circles__circle">
+            <p>White</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <ul class="footer__text">
+            <li class="footer__text-item">Copyright 2020</li>
+            <li class="footer__text-item footer__text-item-active">
+                <ul class="footer__text-item-nested">
+                    <li class="footer__text-item-nested-item">Terms & Conditions | </li>
+                    <li class="footer__text-item-nested-item">Privacy Policy</li>
+                </ul>
+            </li>
+        </ul>
+
+    </footer>
+
+</body>
+
+</html>
